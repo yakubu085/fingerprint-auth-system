@@ -24,7 +24,8 @@ import {
   ArrowLeft,
   Vote,
   Award,
-  FileText
+  FileText,
+  Calendar
 } from 'react-bootstrap-icons';
 import { api, createLoadingState, setLoading, setData, setError } from '../../services/api.js';
 
