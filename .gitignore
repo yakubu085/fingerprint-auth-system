@@ -1,0 +1,24 @@
+# === General ===
+*.log
+hs_err_pid*.log
+.DS_Store
+
+# === Java/Maven Backend ===
+/backend/java/target/
+/backend/java/.classpath
+/backend/java/.project
+/backend/java/.settings/
+
+# === PHP Backend ===
+/backend/php/vendor/
+/backend/php/.env
+
+# General
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.DS_Store
+.env
+

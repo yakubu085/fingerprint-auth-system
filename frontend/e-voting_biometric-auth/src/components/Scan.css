@@ -1,0 +1,23 @@
+.scan{
+  display: flex;
+  height: 100vh;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(80, 80, 80);
+}
+.scan button{
+    height: 50px;
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(69, 111, 150);
+    color: #fff;
+    font-weight: 600;
+}
+.scan button:nth-child(2){
+    background-color: rgb(43, 161, 43);
+}
+.scan button:hover{
+    filter: brightness(.9);
+}

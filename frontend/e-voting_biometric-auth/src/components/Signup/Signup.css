@@ -1,0 +1,35 @@
+@keyframes pulseGlow{
+    0%{
+        stroke: var(--color);
+        stroke-width: 1;
+        filter: drop-shadow(0 0 0px var(--color));
+    }
+    50%{
+        stroke: var(--color);
+        stroke-width: 1.5;
+        filter: drop-shadow(0 0 5px var(--color));
+    }
+    100%{
+        stroke: var(--color);
+        stroke-width: 1;
+        filter: drop-shadow(0 0 0px var(--color));
+    }
+}
+
+@keyframes success {
+    100%{
+        stroke: #0ba80b;
+    }
+}
+
+svg{
+    width: 80px;
+    height: 80px;
+    /* fill: none; */
+}
+svg path{
+    fill: none;
+    stroke: var(--color);
+    stroke-width: 1;
+    animation: pulseGlow 3s infinite ease-in-out;
+}
